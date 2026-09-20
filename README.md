@@ -7,3 +7,11 @@ Tenho mais experiência com programação web e estou usando esses desafios para
 As soluções são escritas em **JavaScript (JS)** e fazem parte do meu processo de aprendizado.
 
 [Meu perfil no LeetCode](https://leetcode.com/u/OYdrhsTbws/)
+
+## Organização
+
+As soluções estão separadas pela dificuldade oficial indicada nas páginas dos problemas do LeetCode:
+
+- `Easy/`
+- `Medium/`
+- `Hard/`
