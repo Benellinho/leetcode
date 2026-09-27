@@ -70,6 +70,15 @@ Forneça apenas os casos de teste solicitados, com entradas e saídas esperadas 
 
 Não apresente código de solução junto aos testes.
 
+#### Padrão de testes do repositório
+
+- Organize os casos de teste dentro de uma função `main()`.
+- Execute a função principal ao final do arquivo com `main()`.
+- Utilize `console.log()` para exibir o resultado de cada caso e a saída esperada quando necessário.
+- Mantenha os testes simples e diretamente relacionados aos exemplos ou casos solicitados.
+- Não adicione frameworks ou estruturas externas de teste sem solicitação explícita.
+- Não altere a implementação da solução ao criar os testes.
+
 ### Quando eu pedir uma solução completa
 
 Somente nesse caso, apresente a implementação solicitada.
