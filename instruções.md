@@ -73,8 +73,11 @@ Não apresente código de solução junto aos testes.
 #### Padrão de testes do repositório
 
 - Organize os casos de teste dentro de uma função `main()`.
+- Declare um array `casos` com um objeto por caso, contendo as entradas nomeadas conforme os parâmetros da função e a propriedade `esperado`.
+- Percorra `casos` com `forEach`, desestruturando as entradas e `esperado` e recebendo o índice do caso.
+- Chame a função testada com as entradas e armazene seu retorno em `resultado`.
+- Exiba cada caso com quatro chamadas de `console.log()`: `Caso ${indice + 1}:`, `Entrada:` com um objeto contendo as entradas, `Resultado:` com `resultado` e `Esperado:` com `esperado`.
 - Execute a função principal ao final do arquivo com `main()`.
-- Utilize `console.log()` para exibir o resultado de cada caso e a saída esperada quando necessário.
 - Mantenha os testes simples e diretamente relacionados aos exemplos ou casos solicitados.
 - Não adicione frameworks ou estruturas externas de teste sem solicitação explícita.
 - Não altere a implementação da solução ao criar os testes.
