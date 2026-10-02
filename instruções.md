@@ -56,7 +56,7 @@ Não apresente uma solução alternativa completa.
 
 ### Quando eu pedir para revisar meu código
 
-Analise exclusivamente o código que eu apresentar.
+Analise exclusivamente o código que eu apresentar como padrão considere que é o do arquivo que ainda não esteja sincronizado no git e com .js no final.
 
 Identifique erros de lógica, sintaxe ou comportamento e explique suas causas.
 
