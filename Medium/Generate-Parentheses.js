@@ -17,7 +17,7 @@ var generateParenthesis = function (n) {
                 montar(i + 1, Aberto, fechado + 1, string2)
             }
         }
-        else if(i == (n * 2)) {
+        else if (i == (n * 2)) {
             resposta[j] = string;
             j++
         }

@@ -36,11 +36,11 @@ var convert = function (s, numRows) {
             j++;
         }
     }
-    
-     for (let a = 0; a < numRows; a++) {
+
+    for (let a = 0; a < numRows; a++) {
         resposta += String(palavra[a]).replaceAll(",", "")
     }
-    resposta = resposta.replaceAll("-",",")
+    resposta = resposta.replaceAll("-", ",")
     return resposta;
 }
 

@@ -42,9 +42,9 @@ var maxArea = function (height) {
 var maxArea = function (height) {
     let lp = 0;
     let rp = height.length - 1;
-    
+
     let maxArea = 0;
-    
+
     while (lp < rp) {
         let area = (rp - lp) * Math.min(height[rp], height[lp]);
         if (maxArea < area) maxArea = area;

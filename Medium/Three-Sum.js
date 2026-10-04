@@ -17,12 +17,12 @@ var threeSum = function (nums) {
             for (let j = i + 1; j < nums.length; j++) {
                 const element2 = nums[j];
                 falta = element2 + element1
-                if (vistos.has(-falta) && i != vistos.get(-falta) &&  j != vistos.get(-falta)) {
+                if (vistos.has(-falta) && i != vistos.get(-falta) && j != vistos.get(-falta)) {
                     const chave = [element1, element2, -falta].sort((a, b) => a - b).join(',');
                     if (!triplasAdicionadas.has(chave)) {
                         triplasAdicionadas.add(chave);
                         resposta[h] = [element1, element2, (-falta)]
-                        console.log('Tripla:', resposta[h], '| Indices:', )
+                        console.log('Tripla:', resposta[h], '| Indices:',)
                         h++
                     }
                 }
@@ -38,7 +38,7 @@ var threeSum = function (nums) {
 }
 
 function main() {
-    console.log(threeSum([-100,-70,-60,110,120,130,160]))
+    console.log(threeSum([-100, -70, -60, 110, 120, 130, 160]))
 }
 
 main()

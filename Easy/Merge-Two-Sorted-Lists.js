@@ -28,7 +28,7 @@ var mergeTwoLists = function (list1, list2) {
     else if (list1.val <= list2.val) {
         resposta = new ListNode(list1.val)
     }
-    else{
+    else {
         resposta = new ListNode(list2.val)
     }
     let lista1 = list1.val <= list2.val ? list1.next : list1;

@@ -29,7 +29,7 @@ function main() {
         { nums: [1, 3, 5, 6], target: 5, esperado: 2 },
         { nums: [1, 3, 5, 6], target: 2, esperado: 1 },
         { nums: [1, 3, 5, 6], target: 7, esperado: 4 },
-        { nums: [1,3], target: 2, esperado: 1 },
+        { nums: [1, 3], target: 2, esperado: 1 },
     ];
 
     casos.forEach(({ nums, target, esperado }, indice) => {
