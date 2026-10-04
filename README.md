@@ -15,3 +15,11 @@ As soluções estão separadas pela dificuldade oficial indicada nas páginas do
 - `Easy/`
 - `Medium/`
 - `Hard/`
+
+## Desafios diários
+
+Problemas resolvidos como parte do desafio diário do LeetCode:
+
+| Problema | Dificuldade | Solução |
+| --- | --- | --- |
+| [678. Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | Medium | [JavaScript](Medium/Valid-Parenthesis-String.JS) |
