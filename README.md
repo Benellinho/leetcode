@@ -24,3 +24,4 @@ Problemas resolvidos como parte do desafio diário do LeetCode:
 | --- | --- | --- |
 | [678. Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | Medium | [JavaScript](Medium/Valid-Parenthesis-String.JS) |
 | [856. Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) | Medium | [JavaScript](Medium/Score-Parentheses.js) |
+| [921. Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | Medium | [JavaScript](Medium/Minimum-Make-Parentheses-Valid.js) |
