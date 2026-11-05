@@ -2,6 +2,8 @@
  * @param {number[]} nums
  * @return {number}
  */
+// Problema do dia 03/11/2026
+// Ideia: Pegar o maior numero e ver a diferença de todos e somar
 var minMoves = function (nums) {
     const maior = Math.max(...nums)
     let movimentos = 0

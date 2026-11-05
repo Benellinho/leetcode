@@ -122,6 +122,8 @@ Portanto:
 
 Quando eu solicitar uma alteração específica, modifique somente o necessário para atender ao pedido.
 
+- Ao atualizar listas de problemas no `README.md`, mantenha os problemas ordenados pelo número do LeetCode, do menor para o maior.
+
 ## 6. Complexidade e otimização
 
 Não apresente análises de complexidade de tempo ou espaço sem solicitação.
